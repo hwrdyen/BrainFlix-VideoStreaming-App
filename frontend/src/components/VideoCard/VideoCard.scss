@@ -1,0 +1,48 @@
+@media screen and (min-device-width: 0px){
+    .VideoCard {
+        display: flex;
+        flex-direction: row;
+        margin: 0.625rem 0rem;
+        gap: 0.625rem;
+    }
+
+    .VideoCard.CurrentPlayingVideo {
+        display: none;
+    }
+
+    .VideoCard--img {
+        border-radius: 0.25rem;
+        width: 7.5rem;
+        height: 5rem;
+        object-fit: cover;
+    }
+
+    .VideoCard--info {
+        width: 11.875rem;
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .VideoCard__info--title {
+        font-weight: bold;
+        margin-bottom: 0.3125rem;
+    }
+
+    .VideoCard__info--content {
+        position: absolute;
+        bottom: 0rem;
+    }
+    
+
+}
+
+@media screen and (min-device-width: 768px){
+
+}
+
+@media screen and (min-device-width: 1280px){
+    
+}
+

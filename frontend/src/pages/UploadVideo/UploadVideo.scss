@@ -1,0 +1,201 @@
+@media screen and (min-device-width: 0px){
+    .inputredborder {
+        border: 0.125rem solid red;
+    }
+    
+    .UploadVideoForm {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .UploadVideoForm__title {
+        font-size: 1.875rem;
+    }
+
+    .UploadVideoForm__thumbnail {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .UploadVideoForm__thumbnail--title {
+        color: #AFAFAF;
+    }
+
+    .UploadVideoForm__thumbnail--img {
+        border-radius: 0.25rem;
+        width: 100%;
+        object-fit: cover;
+        height: 10rem;
+    }
+
+
+    .UploadVideoForm__videotitle,
+    .UploadVideoForm__videodescription {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .UploadVideoForm__video--title {
+        color: #AFAFAF;
+    }
+
+    .UploadVideoForm__video--input {
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+        padding-left: 0.625rem;
+    }
+
+    .UploadVideoForm__video--description {
+        color: #AFAFAF;
+    }
+
+    .UploadVideoForm__video--textarea {
+        padding-top: 0.625rem;
+        padding-bottom: 2.5rem;
+        padding-left: 0.625rem;
+    }
+
+    .UploadVideoForm__video--publishbutton{
+        display: flex;
+        align-items: center;
+        border-radius: 0.25rem;
+        width: 100%;
+        height: 0rem;
+        background-color: #0095FF;
+        padding: 1.25rem 0rem;
+        text-align: center;
+        border: none;
+        text-decoration: none;
+        margin-bottom: 1.5rem;
+    }
+
+    .UploadVideoForm__video--publishbutton:hover {
+        background-color: #0065AD;
+        color: white;
+    }
+
+    .UploadVideoForm__publishbutton,
+    .UploadVideoForm__cancelbutton {
+        text-decoration: none;
+    }
+
+    .UploadVideoForm__publishbutton--icon {
+        margin-left: 0.3125rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .UploadVideoForm__publishbutton--placeholder {
+        padding-left: 33%;
+        font-size: 0.9375rem;
+        color: white;
+        padding-top: 0.3125rem;
+    }
+
+    .UploadVideoForm__video--cancelbutton {
+        margin-left: 42%;
+        font-size: 0.9375rem;
+        color: #0065AD;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+    .UploadVideoForm {
+        padding-left: 2.25rem;
+        padding-right: 2.25rem;
+        padding-top: 1.5rem;
+        border-top: 0.0625rem solid #E1E1E1;
+    }
+
+    .UploadVideoForm__thumbnail {
+        border-top: 0.0625rem solid #E1E1E1;
+        padding-top: 1.5rem;
+    }
+
+    .UploadVideoForm__thumbnail--img {
+        width: 40%;
+        height: 10rem;
+    }
+
+    .UploadVideoForm__videobutton {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        border-top: 0.0625rem solid #E1E1E1;
+        padding-top: 1.5rem;
+    }
+
+    .UploadVideoForm__publishbutton {
+        width: 30%;
+        position: absolute;
+        right: 0rem;
+    }
+
+    .UploadVideoForm__cancelbutton {
+        margin-top: 0.9375rem;
+        width: 30%;
+        position: absolute;
+        right: 30%;
+    }
+
+}
+
+@media screen and (min-device-width: 1280px){
+    .UploadVideoForm__content {
+        display: flex;
+        flex-direction: row;
+        gap: 1.25rem;
+        margin-top: 1.5rem;
+        border-top: 0.0625rem solid #E1E1E1;
+    }
+
+    .UploadVideoForm {
+        padding-left: 3.9375rem;
+        padding-right: 3.9375rem;
+    }
+
+    .UploadVideoForm__thumbnail {
+        border-top: none;
+        margin-top: 0rem;
+        padding-top: 1.5rem;
+        margin-bottom: 0.9375rem;
+        width: 30%;
+    }
+
+    .UploadVideoForm__thumbnail--img {
+        width: 100%;
+        height: 13rem;
+    }
+
+    .UploadVideoForm__form {
+        width: 70%;
+        padding-top: 1.5rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    .UploadVideoForm__video--textarea {
+        padding-bottom: 4.375rem;
+    }
+
+    .UploadVideoForm__publishbutton {
+        width: 15%;
+        position: absolute;
+        right: 0rem;
+    }
+
+    .UploadVideoForm__publishbutton--placeholder {
+        padding-left: 22%;
+    }
+
+    .UploadVideoForm__cancelbutton {
+        margin-top: 0.9375rem;
+        width: 15%;
+        position: absolute;
+        right: 15%;
+    }
+}

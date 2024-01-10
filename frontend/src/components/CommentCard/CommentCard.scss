@@ -1,0 +1,63 @@
+@media screen and (min-device-width: 0px){
+    .CommentCard__container {
+        display: flex;
+        flex-direction: row;
+        gap: 1.25rem;
+        border-bottom: 0.0625rem solid #E1E1E1;
+        padding: 0.9375rem 0rem;
+    }
+
+    .CommentCard__profileimg {
+        position: relative;
+        top: 0.625rem;
+        border-radius: 50%;
+        width: 2.25rem;
+        height: 2.25rem;
+        background-color: #E1E1E1;
+    }
+
+    .CommentCard__content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CommentCard__content--title {
+        display: flex;
+        flex-direction: row;
+        padding: 0.625rem 0rem;
+    }
+
+    .CommentCard__content--name {
+        font-weight: bold;
+    }
+
+    .CommentCard__content--date {
+        margin-left: auto;
+        color: #AFAFAF;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+    .CommentCard_list {
+        padding-left: 2.25rem;
+        padding-right: 2.25rem;
+    }
+
+    .CommentCard__container {
+        gap: 1.875rem;
+    }
+
+    .CommentCard__profileimg {
+        position:relative;
+        top: 0.3125rem;
+    }
+
+    .CommentCard__content {
+        width: 90%;
+    }
+}
+
+@media screen and (min-device-width: 1280px){
+    
+}

@@ -1,0 +1,38 @@
+@media screen and (min-device-width: 0px){
+    .NextVideoList__container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .NextVideoList__title {
+        color: #AFAFAF;
+    }
+    
+    .NextVideoList__VideoList {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .NextVideoList__VideoCardLink {
+        text-decoration: none;
+        color: black;
+    }
+
+    .NextVideoList__VideoCardLink:visited {
+        color: black;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+
+}
+
+@media screen and (min-device-width: 1280px){
+    .NextVideoList__container {
+        padding-top: 2.25rem;
+        border-left: 0.0625rem solid #E1E1E1;
+    }
+    
+}
