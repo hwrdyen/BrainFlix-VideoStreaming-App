@@ -24,14 +24,12 @@ function App() {
 
   useEffect(() => {
     function GetAllVideosInfo() {
-      return axios
-        .get(`https://brainflix-video-backend.onrender.com/videos`)
-        .then((element) => {
-          let videos_info = element.data;
-          setAllVideosInfo(videos_info);
-          setAllVideosInfoLoading(false);
-          setRequiredVideoLoading(false);
-        });
+      return axios.get(`/videos`).then((element) => {
+        let videos_info = element.data;
+        setAllVideosInfo(videos_info);
+        setAllVideosInfoLoading(false);
+        setRequiredVideoLoading(false);
+      });
     }
     if (RequiredVideoLoading === true) {
       GetAllVideosInfo();
@@ -40,15 +38,11 @@ function App() {
 
   useEffect(() => {
     function GetSingleVideoInfo() {
-      return axios
-        .get(
-          `https://brainflix-video-backend.onrender.com/videos/${currentVideoId}`
-        )
-        .then((element) => {
-          let currentvideo_info = element.data;
-          setCurrentVideoInfo(currentvideo_info);
-          setCurrentVideoInfoLoading(false);
-        });
+      return axios.get(`/videos/${currentVideoId}`).then((element) => {
+        let currentvideo_info = element.data;
+        setCurrentVideoInfo(currentvideo_info);
+        setCurrentVideoInfoLoading(false);
+      });
     }
 
     GetSingleVideoInfo();

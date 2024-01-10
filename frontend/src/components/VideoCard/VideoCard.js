@@ -16,10 +16,8 @@ function VideoCard(props) {
           className="VideoCard--img"
           src={`${
             props.index <= 8
-              ? `https://brainflix-video-backend.onrender.com/assets/image` +
-                props.index +
-                `.jpeg`
-              : `https://brainflix-video-backend.onrender.com/assets/image8.jpeg`
+              ? `/assets/image` + props.index + `.jpeg`
+              : `/assets/image8.jpeg`
           }`}
           alt="Video Img"
         />

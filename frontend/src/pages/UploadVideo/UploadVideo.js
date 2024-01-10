@@ -25,10 +25,7 @@ function UploadVideo(props) {
   useEffect(() => {
     if (ClickSubmit === true) {
       axios
-        .post(
-          "https://brainflix-video-backend.onrender.com/videos",
-          NewUploadVideo
-        )
+        .post("/videos", NewUploadVideo)
         .then((res) => {
           console.log(res);
           allvideoinfo.push(NewUploadVideo);
@@ -137,8 +134,9 @@ function UploadVideo(props) {
               VIDEO THUMBNAIL
             </span>
             <img
-              src="https://brainflix-video-backend.onrender.com/assets/image8.jpeg"
+              src="/assets/image8.jpeg"
               className="UploadVideoForm__thumbnail--img"
+              alt="uploaded thumbnail"
             />
           </div>
           <form className="UploadVideoForm__form" id="UploadVideoForm__form">
