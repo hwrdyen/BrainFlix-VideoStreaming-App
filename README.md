@@ -1,5 +1,5 @@
 # BrainFlix-VideoStreaming-App
-##Overview
+## Overview
 ![brainflix-responsive mockup](https://github.com/user-attachments/assets/35d24961-6009-4106-ad7a-be12d79de7cc)
 
 BrainFlix is a full-stack video streaming platform that mimics the functionality of popular video-sharing websites like YouTube. The app allows users to view, upload, and interact with videos, providing a dynamic and engaging user experience. This project was built to showcase modern development practices and seamless front-end and back-end integration.
